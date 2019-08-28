@@ -1,0 +1,13 @@
+STACK
+
+PUSH(stack,item,max,top)
+1.If top=max, then print "Stack Overflow" and return
+2.Else set top=top+1
+3.Set stack[top]=item
+4.EXIT
+
+POP(stack,item,top)
+1.If top=0 then print "Stack Underflow" and return
+2.Else set item=stack[top]
+3.Set top=top-1
+4.EXIT
