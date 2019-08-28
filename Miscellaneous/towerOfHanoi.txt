@@ -1,0 +1,5 @@
+TOWER(N,Beg,Aux,End)
+1.if N=1
+  write Beg->End and return
+2.else call TOWER(N-1,Beg,Aux,End)
+3.EXIT
