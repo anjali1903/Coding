@@ -1,0 +1,11 @@
+1.Push a left paranthesis ( onto stack and add a ) to the end of Q
+2.Scan Q from left to right and repeat steps 3 to 6 for each element of Q until the stack is empty
+3.If an operand is encountered push it onto stack
+4.If a ( is encountered push it onto stack
+5.If an operator is encounterd then 
+	a)Repeatedly pop from stack and add to P each operator which has the same or higher precendence than operator 
+	b)Add operator to stack
+6.If a ) is encountered then 
+	a)Repeatedly pop from stack and add to P each operator until a ( is encountered 
+	b) Remove the (
+7.Exit
